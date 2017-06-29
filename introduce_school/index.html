@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--  luna20617@gmail.com  -->
+    <title>YY Software</title>
+    <script src="./basic/js/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="basic/css/main.css">
+    <script type = "text/javascript" src = "http://maps.googleapis.com/maps/api/js?sensor=true"></script>
+    <script src="basic/js/main.js"></script>
+</head>
+<body>
+    <header>
+        <div id="logo" class="col-md-3">
+            <h1>YD Software</h1>
+        </div>
+        <div class="list col-md-9">
+            <ul>
+                <li><a href="#">양디S/W 소개</a></li>
+                <li><a href="#">교육과정</a></li>
+                <li><a href="#">코딩배틀</a></li>
+                <li><a href="#">실험실</a></li>
+                <li><a href="#">동아리 활동</a></li>
+                <li><span class="search_icon glyphicon glyphicon-search"></span></li>
+            </ul>
+        </div>
+    </header>
+    <nav>
+        <div class="bot">
+            <div class="nav_btn" onclick="con_scroll(0)"></div>
+            <div class="nav_btn" onclick="con_scroll(1)"></div>
+            <div class="nav_btn" onclick="con_scroll(2)"></div>
+            <div class="nav_btn" onclick="con_scroll(3)"></div>
+            <div class="nav_btn" onclick="con_scroll(4)"></div>
+            <div class="nav_btn" style="display:none"></div>
+        </div>
+    </nav>
+    <section>
+        <div class="con" id="c0">
+            <div class="in">
+                <svg width="100%" height="100%" viewBox="30 -50 600 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+                    <path id="path">
+                        <animate attributeName="d" from="m0,110 h0" to="m0,110 h1100" dur="7s" begin="0s" repeatCount="1"/>
+                    </path>
+                    <text font-size="38" font-family="CulDeSac" fill='hsla(36, 95%, 85%, 1)'>
+                        <textPath xlink:href="#path">Welcome to Yang Young S/W</textPath>
+                    </text>
+                </svg>
+                <div id="sdown">
+                    <div></div>
+                    <div class="main_text">
+                    좋은 프로그래머는 돈이나 대중에게 받을<br>
+                    찬사를 기대하고 프로그래밍을 않는다.<br>
+                    </div>
+                    <font color="#FFB300"> - Linus Torvalds</font>
+                </div>
+            </div>
+            <div class="page_num">
+                <h1 style="color:#fff">1</h1>
+                <div></div>
+                <p>5</p>
+            </div>
+        </div>
+        <div class="con" id="c1">
+            <div class="in">
+                <div class="left col-md-6">
+                    <div class="title">
+                        Welcome to YD soft!
+                    </div>
+                    <em>국가직무능력표준(NCS)의 교육과정을 채택하여 웹, 앱 등의 소프트웨어 개발을 공부합니다</em>
+                    <p>
+                        홈페이지 제작, 운영, 관리 등 각종 서비스를 개발하고 관련 정보를 제공하며, 스마트 기기에 적합한 앱을 기획하고, UI/UX를 제작하고 개발합니다.<br>
+                        산학일체형 도제학교 소프트웨어_L3과정(1개 학급 25명)을 통해 응용소프트웨어 전문 능력을 교육을 진행합니다<br>
+                        전공교과로는 정보기술과 활용, 프로그래밍(C언어, 자바), 데이터베이스 프로그래밍, 웹디자인, 웹프로그래밍, 스마트문화앱콘텐츠제작, 응용프로그래밍, 프로그래밍 실무(프로젝트)가 있습니다.<br> 
+                        소프트웨어개발과에서 취득하는 자격증에는 정보처리기능사, 웹디자인기능사, 자바 자격증(OCJP), 컴퓨터 그래픽스, 멀티미디어콘텐츠 제작 전문가 ...
+                    </p>
+                    <button class="btn">Read More</button>
+                </div>
+                <div class="right col-md-6">
+                    <div class="img_title">선배 후배간의 멘토링</div>
+                    <img src="basic/img/oth0.jpg" alt="">
+                    <em>너무너무 이해가 잘되요! 우리의 입장에서 알기쉽게 설명해줘요!</em>
+                    <p>
+                        이 웹프로젝트를 하는데 코딩속도가 느려서 너무힘들다 후 쓸말이 없어서 아무말이나 쓰는중인데 상관없을꺼야 허허 우왕우왕 너무너무 이해가 잘되요 갓영채 ~ 아 처음엔 멋지게 효과주려고 했는데 시간이없어서 아무거나 막때려박게 되어버렸따 ㅜㅜ 충성충성. 이 웹프로젝트를 하는데 코딩속도가 느려서 너무힘들다 후 쓸말이 없어서 아무말이나 쓰는중인데 상관없을꺼야 허허 우왕우왕 너무너무 이해가 잘되요 갓영채 ~ 복붙까지 해버리기~
+                    </p>
+                </div>
+            </div>
+            <div class="page_num">
+                <h1 style="color:#111">2</h1>
+                <div></div>
+                <p>5</p>
+            </div>
+        </div>
+        <div class="con" id="c2">
+            <div class="in">
+                <div></div>
+                <div class="text">
+                미래형 창의 인재를 기르는 행복한 학교<br>
+                경험과 실력을 쌓아 미래의 주인공이 되세요.
+                </div>
+            </div>
+            <div class="page_num">
+                <h1 style="color:#fff">3</h1>
+                <div></div>
+                <p>5</p>
+            </div>
+        </div>
+        <div class="con" id="c3">
+            <div id="map" style="width:100%;height:400px;"></div>
+            <div class="in">
+                <h1>오시는길</h1>
+            </div>
+            <div class="page_num">
+                <h1 style="color:#111">4</h1>
+                <div></div>
+                <p>5</p>
+            </div>
+        </div>
+        <div class="con" id="c4">
+            <div class="in">
+                <button>우리들의 이야기 →</button>
+            </div>
+            <div class="page_num">
+                <h1 style="color:#fff">5</h1>
+                <div></div>
+                <p>5</p>
+            </div>
+        </div>
+    </section>
+    <footer class="con">
+        <div class="top">
+            <h1>YD Software</h1>
+        </div>
+        <div class="bot">
+            <p>경기도 성남시 분당구 서현2동 불정로386번길 35 양영디지털고등학교</p>
+            <p>E-mail : luna20617@gmail.com / Tel : 010-0000-0000 </p>
+            <p><b><font color="#42A5F5">Copyright </font>2017. 나영채 all rights reserved.</b></p>
+            <a href="https://github.com/lunab" target="_blank">
+                <img src="basic/img/GitHub-Mark-Light-32px.png" alt="">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
